@@ -12,6 +12,8 @@
     display: flex;
     align-items: center;
     padding: 0 20px;
+    justify-content: space-evenly;
+    
 }
 
 .nav-logo {
@@ -56,6 +58,9 @@
     height: 40px;
     border-radius: 4px;
  }
+ .nav-search:hover{
+   border: 2px solid orange;
+ }
  .search-select{
     background-color: #f3f3f3;
     width: 50px;
@@ -82,5 +87,20 @@
     border-bottom-right-radius:4px ;
 
  }
+ span{
+   font-size: 0.7rem;
+ }
+ .nav-second{
+   font-size: 0.85rem;
+   font-weight: 700;
+ }
+ .nav-cart i{ /** i for icon **/
+   font-size: 30px;
+ }
+ .nav-cart{
+   font-size: 0.85rem;
+   font-weight: 700;
+ }
+
   
 
