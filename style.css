@@ -104,8 +104,37 @@
 
  .pannel{
    height: 40px;
-   background-color: #febd68;
+   background-color:#222f3d;
+   display: flex;
+   color: #f3f3f3;
+   align-items: center;
+   justify-content: space-evenly;
+
+
  }
+ .pannel-ops p{
+   display: inline;
+   
+ }
+ .pannel-ops{
+  width: 70%;
+ }
+ /* }
+ .pannel-details{
+   display: flex;
+   justify-content: space-evenly;
+ }
+ .pannel-all{
+   width: 50px;
+   font-weight: 700;
+   display: flex;
+   
+ }
+ .pannel-all i{
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+ } */
 
   
 
