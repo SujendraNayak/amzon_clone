@@ -151,3 +151,18 @@
 .hero-msg a{
   color: aqua;
 }
+.shop{
+  display: flex;
+  justify-content: space-evenly;/* to give the space for boxes evenly*/
+  background-color: #e2e7e6;
+}
+
+.box{
+  height: 400px;
+  border: 2px solid #0f1111;
+  width: 23%;
+  background-color: white;
+}
+.box-img{
+  height: 300px;
+}
